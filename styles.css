@@ -1,0 +1,60 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 5px;
+}
+
+fieldset {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+label, #char-count {
+    display: flex;
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-left: 5px;
+    width: 100%;
+}
+
+button {
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+    margin-top: 10px
+}
+
+button:hover{
+    background: aqua;
+    border-radius: 5px;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+input.error, textarea.error {
+    border: 1px solid red;
+}
+
+span{
+    margin: 0 0 0 10px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
