@@ -45,6 +45,7 @@ submitBtn.addEventListener("click", (e) => {
     messageInput.classList.remove("error");
   }
   if (currentLength > 200) {
+    messageInput.value = messageInput.value.slice(0, 200);
     messageError.textContent = "Message must be under 200 characters";
     messageInput.classList.add("error");
     submitBtn.disabled = true;
